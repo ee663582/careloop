@@ -1,0 +1,12 @@
+.heading-actions{display:flex;align-items:center;gap:8px;flex:none}
+.speak-trigger{border:1px solid #b8d5ca;border-radius:9px;background:#eef7f2;color:#286e63;padding:9px 12px;display:flex;align-items:center;justify-content:center;gap:7px;font-size:11px;font-weight:700;white-space:nowrap}
+.speak-trigger[aria-pressed="true"]{background:#28766c;border-color:#28766c;color:white}
+.speech-message{display:block;color:#9a624a;font-size:10px;margin-top:6px}
+.voice-consent{display:flex;align-items:flex-start;gap:8px;color:#526d62;font-size:10px;line-height:1.45}
+.voice-consent input{margin-top:2px;accent-color:#28766c}
+.voice-consent span{display:grid;gap:3px}
+.voice-consent b{color:#31564b;font-size:10px}
+.voice-consent small{color:#75857d;font-size:9px}
+.voice-language-label{display:grid;gap:5px;color:#526d62;font-size:10px;width:100%}
+.voice-language-label select{max-width:100%;border:1px solid #dce7e1;border-radius:8px;background:white;padding:8px;color:#314a43;font-size:11px}
+@media(max-width:540px){.heading-actions{gap:5px}.speak-trigger{padding:8px;font-size:0}.speak-trigger svg{width:17px}}
