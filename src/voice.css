@@ -1,4 +1,6 @@
 .heading-actions{display:flex;align-items:center;gap:8px;flex:none}
+.splash-progress{display:none!important}
+.splash img{animation:none!important}
 .speak-trigger{border:1px solid #b8d5ca;border-radius:9px;background:#eef7f2;color:#286e63;padding:9px 12px;display:flex;align-items:center;justify-content:center;gap:7px;font-size:11px;font-weight:700;white-space:nowrap}
 .speak-trigger[aria-pressed="true"]{background:#28766c;border-color:#28766c;color:white}
 .speech-message{display:block;color:#9a624a;font-size:10px;margin-top:6px}
